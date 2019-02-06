@@ -1,0 +1,65 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background:#2196F3;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+}
+
+div{
+  display: flex;
+}
+
+form {
+  margin: auto;
+  padding: 15px;
+  background-color: #1565C0;
+  flex-direction: column;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 5px;
+}
+
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 96%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  font-size: 16px;
+  border-radius: 3px;
+  width: 100%;
+  background-color: #E4F1FE;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #999;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
