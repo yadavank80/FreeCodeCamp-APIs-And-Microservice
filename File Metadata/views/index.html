@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>File Metadata Microservice</title>
+    <meta name="description" content="A cool file metadata microservice">
+<!--     <link id="favicon" rel="icon" href="#" type="image/x-icon"> -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <!-- <script src="/client.js" defer></script> -->
+  </head>
+  <body>
+    
+      <h1>
+        File Metadata Microservice
+      </h1>
+      <div style="text-align: center; font-size:1.5em" class="bold">API Project</div>
+    <div style="text-align: center; font-size:1em; padding: 10px 0px 0px 0px" ><strong>Endpoint:</strong> POST on <a href="/upload"> [current url]/upload</a> </div>
+      <div style="text-align: center; font-size:1.2em; padding: 50px 0px 80px 0px" ><strong>Usage:</strong> Please choose a file below and click submit.</div>
+      
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input name="myfile" type="file">
+        <button type="submit" value="Submit" >Submit</button>
+      </form>
+    
+      <div style="text-align: center; font-size:1.2em; padding: 0px 0px 20px 0px" ><strong>Note:</strong> Please do not upload any file containing sensitive information. <br>
+      </div>
+
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
