@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>URL Shortner MicroService!</title>
+    <meta name="description" content="URL Shortner MicroService!">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/style.css">
+    <script src="/client.js" defer></script>
+  </head>
+  
+  <body>
+    
+    <header>
+      <h1>A URL Shortner MicroService!</h1>
+    </header>
+
+    
+    <div>
+      <p><b>Base URL: </b><a href="https://berry-bladder.glitch.me/api/shorturl/">https://berry-bladder.glitch.me/api/shorturl/</a><br><br>
+        <b>API Endpoints: </b></p>
+      <ul style="list-style: none;" >
+        <li><b>1. For generating a short URL: </b><a href="https://berry-bladder.glitch.me/api/shorturl/new">https://berry-bladder.glitch.me/api/shorturl/new</a></li>
+        <li><b>2. For visiting a shortened URL:</b> <a href="https://berry-bladder.glitch.me/api/shorturl/">[this project url]/api/shorturl/[shortURL]</a></li>
+      </ul>
+    </div>
+    
+    <form action="/api/shorturl/new" method="post" style="margin-top:50px;">
+      <label>Enter the URL below:</label>
+      <input type="text" id ="inputURL" name="url" placeholder="Enter a URL to shorten" style="margin-bottom: 10px; margin-top:10px; padding-left:10px;"/>
+      <input type="submit" id="submit" value="Generate">
+      
+    </form>
+
+    
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+  </body>
+</html>

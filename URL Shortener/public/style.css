@@ -1,0 +1,55 @@
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: #0A3D62;
+}
+
+input {
+  
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 50%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  margin:auto;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid grey;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+div{
+  margin: auto;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
